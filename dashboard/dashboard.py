@@ -12,7 +12,7 @@ def create_daily_rent(df):
     return daily_rent_df
 
 
-main_df = pd.read_csv("main_data.csv")
+main_df = pd.read_csv("./main_data.csv")
 main_df.sort_values(by="datetime", inplace=True)
 main_df.reset_index(inplace=True)
 
